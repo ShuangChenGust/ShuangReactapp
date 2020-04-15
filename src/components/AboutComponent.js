@@ -17,7 +17,30 @@ const RenderLeader = ({leader}) => {
     );
 }
 
+// <script>
+// 'use strict';
+// // Try edit message
 
+// var date1=new Date('2019/11/26 0:0:0');   //开始时间
+// var date2=new Date();    //结束时间
+// var date3=date1.getTime()-date2.getTime(); //时间差秒
+// //计算出相差天数
+// var days=Math.floor(date3/(24*3600*1000));
+
+// //计算出小时数
+// var leave1=date3%(24*3600*1000)  ;  //计算天数后剩余的毫秒数
+// var hours=Math.floor(leave1/(3600*1000));
+
+// //计算相差分钟数
+// var leave2=leave1%(3600*1000);        //计算小时数后剩余的毫秒数
+// var minutes=Math.floor(leave2/(60*1000));
+
+// //计算相差秒数
+// var leave3=leave2%(60*1000) ;     //计算分钟数后剩余的毫秒数
+// var seconds=Math.round(leave3/1000)
+// alert("我和蕊蕊在一起了" + days + "天" + hours + "时" + minutes + "分" + seconds + "秒");
+
+// </script>
 
 function About(props) {
 
