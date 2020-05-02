@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardImgOverlay, CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
+import { Card, CardImg, CardImgOverlay, CardTitle, Breadcrumb, BreadcrumbItem, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
     function RenderMenuItem ({dish, onClick}) {
@@ -40,6 +40,9 @@ import { Link } from 'react-router-dom';
                 <div className="row">
                     {menu}
                 </div>
+                <div>
+                    <Button outline color="primary">Submit</Button>{' '}
+                </div> 
             </div>
         );
     }
